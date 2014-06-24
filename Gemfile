@@ -24,6 +24,9 @@ group :production do
   # See https://github.com/heroku/rails_12factor
   # https://devcenter.heroku.com/articles/rails4#logging-and-assets
   gem 'rails_12factor'
+  gem 'unicorn'
+  gem 'memcachier'
+  gem 'dalli'
 end
 
 group :development, :test do
